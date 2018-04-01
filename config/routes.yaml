@@ -1,0 +1,16 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+
+index:
+    path: /
+    controller: App\Controller\MainController::index
+
+form:
+    path: /form
+    controller: App\Controller\MainController::form
+
+create_user:
+    path: /create
+    controller: App\Controller\MainController::create
